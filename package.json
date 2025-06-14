@@ -1,71 +1,25 @@
 {
-  "name": "seqcode-vscode",
-  "displayName": "SeqCode Support",
-  "description": "SeqCode Sequence Diagram Language Support",
+  "name": "seqcode",
+  "displayName": "SeqCode",
+  "description": "SeqCode language support",
   "version": "0.0.1",
-  "type": "module",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.101.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
-  "activationEvents": [],
-  "main": "./extension.js",
   "contributes": {
-    "languages": [
-      {
-        "id": "seqcode",
-        "aliases": [
-          "SeqCode",
-          "seqcode"
-        ],
-        "extensions": [
-          "seqcode"
-        ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "seqcode",
-        "scopeName": "source.seqcode",
-        "path": "./syntaxes/seqcode.tmLanguage.json"
-      }
-    ],
-    "commands": [
-      {
-        "command": "seqcode-support.start",
-        "title": "Seqcode Sequence Diagram"
-      }
-    ],
-    "customEditors": [
-      {
-        "viewType": "seqcode-support.livePreview",
-        "displayName": "SeqCode Live Preview",
-        "selector": [
-          {
-            "filenamePattern": "*.seqcode"
-          }
-        ],
-        "priority": "default"
-      }
-    ]
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "vscode-test"
-  },
-  "devDependencies": {
-    "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "@types/vscode": "^1.100.0",
-    "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.5.2",
-    "eslint": "^9.25.1"
-  },
-  "dependencies": {
-    "seqcode": "^0.1.9"
+    "languages": [{
+      "id": "seqcode",
+      "aliases": ["SeqCode", "seqcode"],
+      "extensions": [".seqcode"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "seqcode",
+      "scopeName": "source.seqcode",
+      "path": "./syntaxes/seqcode.tmLanguage.json"
+    }]
   }
 }
