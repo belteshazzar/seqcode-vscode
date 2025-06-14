@@ -3,30 +3,21 @@
 	"name": "SeqCode",
 	"patterns": [
 		{
-			"include": "#keywords"
+            "name": "string.quoted.double.params",
+            "match": "\\(([^)\\\\]|\\\\.)*\\)"
 		},
-		{
-			"include": "#strings"
-		}
+{
+            "name": "keyword.control",
+            "match": "[a-zA-Z_\\-+0-9]+"
+		},
+        {
+            "name": "string.quoted.double.identifier",
+            "match": "\"([^\"\\\\]|\\\\.)*\""
+        },
+        {
+            "name": "comment.line.number-sign",
+            "match": "#.*"
+        }
 	],
-	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.seqcode",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.seqcode",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.seqcode",
-					"match": "\\\\."
-				}
-			]
-		}
-	},
 	"scopeName": "source.seqcode"
 }
