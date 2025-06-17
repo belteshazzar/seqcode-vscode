@@ -3,6 +3,10 @@
   "displayName": "SeqCode",
   "description": "SeqCode language support",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belteshazzar/seqcode-vscode"
+  },
   "engines": {
     "vscode": "^1.101.0"
   },
