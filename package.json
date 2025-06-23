@@ -1,8 +1,18 @@
 {
   "name": "seqcode-vscode",
-  "displayName": "SeqCode",
-  "description": "SeqCode language support",
+  "displayName": "seqcode",
+  "description": "seqcode language support",
+  "publisher": "belteshazzar",
   "version": "0.0.1",
+  "icon": "./logo-128.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [],
+  "galleryBanner":{
+    "color": "#aaa",
+    "theme": "dark"
+  },
+  "qna": "marketplace",
+  "pricing": "Free",
   "repository": {
     "type": "git",
     "url": "https://github.com/belteshazzar/seqcode-vscode"

@@ -1,10 +1,16 @@
 # seqcode README
 
-sample
+Provides language support for seqcode - a simple programming language like script that can be translated into UML Sequence diagrams.
+
+Translation into SVG diagrams directly in vscode is provided by a separate extension.
+
+For more information see:
+- https://seqcode.app
+- https://github.com/belteshazzar/seqcode
 
 ## Features
 
-Language support with highlighting for SeqCode
+Language support with highlighting for seqcode.
 
 ## Requirements
 
@@ -20,8 +26,6 @@ No known issues.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 0.0.1
 
-Initial release.
+Initial release. Basic syntax highlighting for seqcode.
