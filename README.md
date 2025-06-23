@@ -1,4 +1,4 @@
-# seqcode README
+# README
 
 Provides language support for seqcode - a simple programming language like script that can be translated into UML Sequence diagrams.
 
@@ -23,9 +23,3 @@ There are no settings.
 ## Known Issues
 
 No known issues.
-
-## Release Notes
-
-### 0.0.1
-
-Initial release. Basic syntax highlighting for seqcode.

@@ -5,8 +5,8 @@
   "publisher": "belteshazzar",
   "version": "0.0.1",
   "icon": "./logo-128.png",
-  "license": "SEE LICENSE IN LICENSE",
-  "keywords": [],
+  "license": "BSD-2-Clause",
+  "keywords": ["uml", "sequence", "diagram", "diagrams"],
   "galleryBanner":{
     "color": "#aaa",
     "theme": "dark"
